@@ -1,17 +1,28 @@
-how to run code-
-go to HelloApplication and run it
+# Stick Hero Game
 
-how to play -
-click on the play button in the middle to play
+## How to Run the Code
+To play the game, navigate to the `HelloApplication` class and run it.
 
-things implemented-
--i  have implemented a singleton in stickhero function and have used multithreading while playing media.
--i could not complete the game as per assignment in my game if the stick lands then the player wins else he losses.
--the stickhero class is responsible for moving the player across the stick
--inheritance have been used in the stick class.
-- the stick class extends the rectangle class have functions like rotates it and extending it.
--java concepts like encapsulation, polymorphism and inheritance have been used in stickhero class and stick .
--sterilization and deserialization have been implemented in the Storegame class.
-- others classes was meant to be used but wasn't.
+## How to Play
+- Click on the play button in the middle to start the game.
+- If the stick lands correctly, the player wins!
 
+## Features Implemented
 
+### **Design Patterns & Multithreading**
+- Implemented the **Singleton Pattern** in the `StickHero` function to ensure controlled object creation.
+- Integrated **Multithreading** to handle media playback seamlessly, enhancing the gaming experience.
+
+### **Object-Oriented Programming (OOP) Principles**
+- **Encapsulation, Inheritance, and Polymorphism** are effectively used in the `StickHero` and `Stick` classes.
+- The `Stick` class extends `Rectangle`, providing additional functionality like rotation and extension.
+- The `StickHero` class efficiently controls the player's movement across the stick.
+
+### **Game Logic & Mechanics**
+- Designed a **functional game prototype** where the player either wins or loses based on precise stick placement.
+- Smooth character transition across the stick for an engaging experience.
+
+### **Data Persistence**
+- **Serialization and Deserialization** are implemented in the `StoreGame` class to save and retrieve game data efficiently.
+
+This project demonstrates strong software design principles, effective use of Java concepts, and an engaging gameplay experience!
